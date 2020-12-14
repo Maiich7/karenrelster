@@ -1,29 +1,36 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 body {
-    background-color: #dddfdf;
+	background-color: #dddfdf;
 
 }
 
 header {
-    padding: 20px;
-    background: #dddfdf;
-    text-align: center;
+	padding: 20px;
+	background: #dddfdf;
+	text-align: center;
 }
 
 main {
-    max-width: 900px;
-    margin: 0 auto;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    margin: 17px;
+	max-width: 100%;
+	height: auto;
+	padding: 0.5rem;
 }
+
+#section_galleri {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+/*
 
 .row {
     display: flex;
@@ -32,7 +39,6 @@ img {
     display: flex;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
     flex: 25%;
     max-width: 25%;
@@ -51,7 +57,7 @@ img {
     gap: 20px;
     padding: 1px;
 
-    /* Responsive layout - makes a two column-layout instead of four columns */
+
     @media screen and (max-width: 800px) {
         .column {
             flex: 50%;
@@ -59,10 +65,11 @@ img {
         }
     }
 
-    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
     @media screen and (max-width: 600px) {
         .column {
             flex: 100%;
             max-width: 100%;
         }
     }
+*/
