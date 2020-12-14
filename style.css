@@ -1,0 +1,61 @@
+body {
+	padding: 0;
+	margin: 0 5vw;
+	background-color: #dddfdf;
+
+}
+
+main img {
+	width: 100%;
+}
+
+header {
+	margin: 1rem;
+}
+
+nav {
+	font-size: 25px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	padding: 1rem;
+}
+
+.slider {
+
+	height: 800px;
+	width: 1200px;
+	background: url(images/tissedreng.jpg);
+	margin: 100px auto;
+	animation: slide 20s infinite;
+	background-repeat: no-repeat;
+}
+
+@keyframes slide {
+	25% {
+		background: url(images/tissedreng.jpg);
+		background-repeat: no-repeat;
+	}
+
+
+
+	50% {
+		background: url(images/far.jpg);
+		background-repeat: no-repeat;
+	}
+
+
+	75% {
+		background: url(images/skubbe.jpg);
+		background-repeat: no-repeat;
+	}
+
+
+
+	100% {
+		background: url(images/oldemor01.jpg);
+		background-repeat: no-repeat;
+	}
+}
