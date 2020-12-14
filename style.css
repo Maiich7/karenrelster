@@ -1,63 +1,108 @@
 body {
-	padding: 0;
-	margin: 0 5vw;
-	background-color: #dddfdf;
+    padding: 0;
+    margin: 0 5vw;
+    background-color: #dddfdf;
 
 }
 
 main img {
-	width: 100%;
+    width: 100%;
 }
 
 header {}
 
 nav {
-	font-size: 25px;
+    font-size: 25px;
+    width: 10vw;
 }
 
 nav a {
-	text-decoration: none;
-	color: black;
-	padding: 1rem;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
 }
 
 #logo {
-	padding-left: 0;
+    padding-left: 0;
 }
 
 .slider {
 
-	height: 800px;
-	width: 1200px;
-	background: url(images/tissedreng.jpg);
-	margin: 100px auto;
-	animation: slide 20s infinite;
-	background-repeat: no-repeat;
+    height: 800px;
+    width: 1200px;
+    background: url(images/tissedreng.jpg);
+    margin: 100px auto;
+    animation: slide 20s infinite;
+    background-repeat: no-repeat;
 }
 
 @keyframes slide {
-	25% {
-		background: url(images/tissedreng.jpg);
-		background-repeat: no-repeat;
-	}
+    25% {
+        background: url(images/tissedreng.jpg);
+        background-repeat: no-repeat;
+    }
 
 
 
-	50% {
-		background: url(images/far.jpg);
-		background-repeat: no-repeat;
-	}
+    50% {
+        background: url(images/far.jpg);
+        background-repeat: no-repeat;
+    }
 
 
-	75% {
-		background: url(images/skubbe.jpg);
-		background-repeat: no-repeat;
-	}
+    75% {
+        background: url(images/skubbe.jpg);
+        background-repeat: no-repeat;
+    }
 
 
 
-	100% {
-		background: url(images/oldemor01.jpg);
-		background-repeat: no-repeat;
-	}
-}
+    100% {
+        background: url(images/oldemor01.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .historie {
+        background-color: aquamarine;
+    }
+
+
+
+    /* bugermenu*/
+
+    .hidden {
+        /* display: none;
+    transform: scale(0);*/
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    #menuknap {
+        display: inline-block;
+    }
+
+    #manu {
+        list-style-type: none;
+        transition: transform .3s;
+        transform-origin: top left;
+
+    }
+
+
+    @media only screen and (min-width: 600px) {
+
+        #menuknap {
+            display: none;
+        }
+
+
+        #menu.hidden {
+            transform: translateX(0);
+            opacity: 1;
+        }
+
+        #menu li {
+            display: inline-block;
+        }
+
+    }

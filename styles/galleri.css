@@ -17,6 +17,7 @@ main img {
 
 nav {
     font-size: 25px;
+    width: 10vw;
 }
 
 nav a {
@@ -52,46 +53,42 @@ img {
     grid-template-columns: repeat(3, 1fr);
 }
 
-/*
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    display: flex;
+/* bugermenu*/
+
+.hidden {
+    /* display: none;
+    transform: scale(0);*/
+    transform: translateX(-100%);
+    opacity: 0;
 }
 
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-    display: flex;
+#menuknap {
+    display: inline-block;
 }
 
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
+#manu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+
 }
 
-.image-container {
-    display: flex;
-    gap: 20px;
-    padding: 1px;
 
+@media only screen and (min-width: 600px) {
 
-    @media screen and (max-width: 800px) {
-        .column {
-            flex: 50%;
-            max-width: 50%;
-        }
+    #menuknap {
+        display: none;
     }
 
 
-    @media screen and (max-width: 600px) {
-        .column {
-            flex: 100%;
-            max-width: 100%;
-        }
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
     }
-*/
+
+    #menu li {
+        display: inline-block;
+    }
+
+}
