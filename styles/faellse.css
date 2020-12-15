@@ -13,6 +13,14 @@
 
 }
 
+@font-face {
+    font-family: "Bulo-Medium";
+    src:
+        url("/fonts/Bulo-Medium/fonts/BuloMedium.woff") format("woff"),
+        url("/fonts/Bulo-Medium/fonts/BuloMedium.woff2") format("woff2");
+
+}
+
 body {
     padding: 0;
     margin: 0 5vw;
