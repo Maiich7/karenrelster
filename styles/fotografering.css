@@ -26,6 +26,36 @@ nav a {
     padding: 1rem;
 }
 
+#fotografering .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+@font-face {
+    font-family: "Melior";
+    src:
+        url("/fonts/Melior/fonts/Melior.woff") format("woff"),
+        url("/fonts/Melior/fonts/Melior.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Bulo-Light";
+    src:
+        url("/fonts/Bulo-Light/fonts/BuloLight.woff") format("woff"),
+        url("/fonts/Bulo-Light/fonts/BuloLight.woff2") format("woff2");
+
+}
+
+h1 {
+    font-family: "Melior";
+    font-size: 2rem;
+}
+
+p {
+    font-family: "Bulo-Light";
+    font: 0.5rem;
+}
+
 #logo {
     padding-left: 0;
 }
