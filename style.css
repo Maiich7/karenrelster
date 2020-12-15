@@ -6,11 +6,9 @@
     margin: 100px auto;
     animation: slide 15s infinite;
     background-repeat: no-repeat;
-    position: absolute;
-    left: 40vw;
-    top: 9.5vw;
     bottom: 10vw;
-    object-fit: scale-down;
+    background-size: cover;
+    background-position: ;
 }
 
 @keyframes slide {
