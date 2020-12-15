@@ -6,9 +6,50 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title></title>
 	<link rel="stylesheet" href="styles/faellse.css">
+	<link rel="stylesheet" href="styles/kontakt.css">
+	<form name="kontakt" netlify>
+	</form>
+
 </head>
 
 <body>
+	<form>
+		<ul class="form-style-1">
+			<li><label>Fulde Navn <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="Første" /> <input type="text" name="field2" class="field-divided" placeholder="Sidste" /></li>
+			<li>
+				<label>Email <span class="required">*</span></label>
+				<input type="email" name="field3" class="field-long" />
+			</li>
+			<li>
+				<label>Emne</label>
+				<select name="field4" class="field-select">
+					<option value="Advertise">General</option>
+					<option value="Partnership">Booking</option>
+					<option value="General Question">Spørgsmål</option>
+				</select>
+			</li>
+			<li>
+				<label>Din besked <span class="required">*</span></label>
+				<textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+			</li>
+			<li>
+				<input type="send" value="Send" />
+			</li>
+		</ul>
+	</form>
+
+	<br>
+
+	<h2>Vores placering</h2>
+
+	<br>
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2266.10452862924!2d10.395872681205317!3d55.39108193362276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464d200f296621c1%3A0x20483ad872a7809e!2sAllegade%201%2C%205000%20Odense!5e0!3m2!1sda!2sdk!4v1608049725296!5m2!1sda!2sdk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+
+
+
 	<header id="my_header">
 		<nav>
 			<!--<img src="images/karen_logo.svg" alt="logo">-->
@@ -19,7 +60,7 @@
 
 			<!--------------bugermenu---------------->
 			<div id="menuknap">☰</div>
-			<ul id="menu" class="hidden">
+			<!--		<ul id="menu" class="hidden">
 
 
 
@@ -30,26 +71,12 @@
 				<a href="information.html">Information</a>
 				<a href="kontakt.html">Kontakt</a>
 
-			</ul>
+			</ul>-->
 
 
 		</nav>
 	</header>
 	<script src="javaScript/Kontakt.js"></script>
-
-	<form>
-		<label for="full-name">Fulde navn</label>
-		<input id="full-name" name="fname" type="text">
-
-		<label for="email">E-mail</label>
-		<input id="email" name="email" type="email">
-
-		<botton>Indsend</botton>
-
-
-	</form>
-
-
 
 
 
