@@ -25,16 +25,19 @@ body {
     padding: 0;
     margin: 0 5vw;
     background-color: #dddfdf;
-
 }
 
 h1 {
     font-family: Melior;
     text-transform: uppercase;
+    color: #212121;
+
 }
 
 h2 {
     font-family: "Bulo-Medium";
+    color: #212121;
+
 
 }
 
@@ -53,6 +56,8 @@ h5 {
 
 p {
     font-family: "Bulo-Light";
+    color: #212121;
+
 }
 
 .logo {
@@ -93,6 +98,7 @@ nav {
     font-family: Melior;
     text-transform: uppercase;
     font-size: 1vw;
+
 }
 
 
@@ -160,9 +166,11 @@ a {
 
 @media only screen and (min-width: 600px) {
 
+
     #menuknap {
         display: none;
     }
+
 
 
     #menu.hidden {

@@ -1,12 +1,12 @@
-main img {
-    width: 100%;
+img {
+    width: 14vw;
+    height: auto;
 }
-
 
 .slider {
 
-    height: 800px;
-    width: 800px;
+    height: 600px;
+    width: 600px;
     background: url(images/tissedreng.jpg);
     margin: 100px auto;
     animation: slide 15s infinite;
@@ -14,6 +14,8 @@ main img {
     position: absolute;
     left: 40vw;
     top: 9.5vw;
+    bottom: 10vw;
+    object-fit: scale-down;
 }
 
 @keyframes slide {
@@ -46,5 +48,5 @@ main img {
 #forside .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding-top: 10vw;
+    padding-top: 15vw;
 }
