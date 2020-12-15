@@ -10,7 +10,7 @@ body {
 }
 
 main img {
-    width: 100%;
+    width: 50%;
 }
 
 header {}
@@ -36,11 +36,6 @@ nav a {
     grid-template-columns: 1fr 1fr 1fr;
     text-align: justify;
     padding-left: 10vw;
-}
-
-facebook_logo {
-    width: 4vw;
-    height: auto;
 }
 
 @font-face {
