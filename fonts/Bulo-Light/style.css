@@ -1,0 +1,10 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Bulo-Light";
+
+  src: url("./fonts/BuloLight.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/BuloLight.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/BuloLight.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

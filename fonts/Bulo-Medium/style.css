@@ -1,0 +1,10 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Bulo-Medium";
+
+  src: url("./fonts/BuloMedium.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/BuloMedium.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/BuloMedium.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
