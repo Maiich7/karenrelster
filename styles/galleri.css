@@ -10,38 +10,6 @@ body {
 
 }
 
-main img {
-    width: 100%;
-}
-
-
-nav {
-    font-size: 25px;
-    width: 10vw;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-    padding: 1rem;
-}
-
-#logo {
-    padding-left: 0;
-}
-
-
-header {
-    padding: 20px;
-    background: #dddfdf;
-    text-align: center;
-}
-
-main {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -51,44 +19,4 @@ img {
 #section_galleri {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-}
-
-
-/* bugermenu*/
-
-.hidden {
-    /* display: none;
-    transform: scale(0);*/
-    transform: translateX(-100%);
-    opacity: 0;
-}
-
-#menuknap {
-    display: inline-block;
-}
-
-#manu {
-    list-style-type: none;
-    transition: transform .3s;
-    transform-origin: top left;
-
-}
-
-
-@media only screen and (min-width: 600px) {
-
-    #menuknap {
-        display: none;
-    }
-
-
-    #menu.hidden {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
-    #menu li {
-        display: inline-block;
-    }
-
 }

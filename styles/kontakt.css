@@ -101,67 +101,6 @@ select {
 
 }
 
-main img {
-    width: 100%;
-}
-
-header {}
-
-nav {
-    font-size: 25px;
-    width: 10vw;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-    padding: 1rem;
-}
-
-#logo {
-    padding-left: 0;
-}
-
-
-/* bugermenu*/
-
-.hidden {
-    /* display: none;
-    transform: scale(0);*/
-    transform: translateX(-100%);
-    opacity: 0;
-}
-
-#menuknap {
-    display: inline-block;
-}
-
-#manu {
-    list-style-type: none;
-    transition: transform .3s;
-    transform-origin: top left;
-
-}
-
-
-@media only screen and (min-width: 600px) {
-
-    #menuknap {
-        display: none;
-    }
-
-
-    #menu.hidden {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
-    #menu li {
-        display: inline-block;
-    }
-
-}
-
 #kontakt .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
