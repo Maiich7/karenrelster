@@ -6,14 +6,14 @@ main img {
 .slider {
 
     height: 800px;
-    width: 1200px;
+    width: 800px;
     background: url(images/tissedreng.jpg);
     margin: 100px auto;
-    animation: slide 20s infinite;
+    animation: slide 15s infinite;
     background-repeat: no-repeat;
-    top: 9.5vw;
     position: absolute;
-    left: 30vw;
+    left: 40vw;
+    top: 9.5vw;
 }
 
 @keyframes slide {
@@ -41,4 +41,10 @@ main img {
         background: url(images/oldemor01.jpg);
         background-repeat: no-repeat;
     }
+}
+
+#forside .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 10vw;
 }
