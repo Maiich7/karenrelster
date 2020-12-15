@@ -10,7 +10,7 @@ body {
 }
 
 main img {
-    width: 100%;
+    width: 50%;
 }
 
 header {}
@@ -38,9 +38,9 @@ nav a {
     padding-left: 10vw;
 }
 
-facebook_logo {
-    width: 4vw;
-    height: auto;
+#facebook_logo {
+    background-size: 2vw;
+}
 }
 
 @font-face {
