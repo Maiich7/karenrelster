@@ -2,7 +2,7 @@
 	margin: 10px auto;
 	max-width: 400px;
 	padding: 20px 12px 10px 20px;
-	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font: 13px, "Bulo-Medium", "Bulo-Medium";
 }
 
 .form-style-1 li {
@@ -74,7 +74,7 @@ select {
 	height: 100px;
 }
 
-.form-style-1 input[type=send],
+.form-style-1 input[type=submit],
 .form-style-1 input[type=button] {
 	background: #000000;
 	padding: 8px 15px 8px 15px;
@@ -82,7 +82,7 @@ select {
 	color: #fff;
 }
 
-.form-style-1 input[type=send]:hover,
+.form-style-1 input[type=submit]:hover,
 .form-style-1 input[type=button]:hover {
 	background: #000000;
 	box-shadow: none;
@@ -160,4 +160,9 @@ nav a {
 		display: inline-block;
 	}
 
+}
+
+iframe {
+	width: 100%;
+	height: auto;
 }
