@@ -25,10 +25,17 @@ nav a {
     text-decoration: none;
     color: black;
     padding: 1rem;
+
 }
 
-#logo {
+#menu {
+    background-color: aqua;
+}
+
+logo {
     padding-left: 0;
+    width: 10vw;
+    height: auto;
 }
 
 .slider {
