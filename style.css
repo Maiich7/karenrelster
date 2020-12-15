@@ -5,6 +5,10 @@ body {
 
 }
 
+h1 {
+    font-family: Melior;
+}
+
 main img {
     width: 100%;
 }
@@ -123,48 +127,49 @@ p {}
         background: url(images/oldemor01.jpg);
         background-repeat: no-repeat;
     }
+}
 
-    .historie {
-        background-color: aquamarine;
-    }
+.historie {
+    background-color: aquamarine;
+}
 
 
 
-    /* bugermenu*/
+/* bugermenu*/
 
-    .hidden {
-        /* display: none;
+.hidden {
+    /* display: none;
     transform: scale(0);*/
-        transform: translateX(-100%);
-        opacity: 0;
-    }
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+
+}
+
+
+@media only screen and (min-width: 600px) {
 
     #menuknap {
+        display: none;
+    }
+
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
         display: inline-block;
     }
 
-    #menu {
-        list-style-type: none;
-        transition: transform .3s;
-        transform-origin: top left;
-
-    }
-
-
-    @media only screen and (min-width: 600px) {
-
-        #menuknap {
-            display: none;
-        }
-
-
-        #menu.hidden {
-            transform: translateX(0);
-            opacity: 1;
-        }
-
-        #menu li {
-            display: inline-block;
-        }
-
-    }
+}

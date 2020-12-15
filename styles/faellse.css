@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Melior";
+    src:
+        url("/fonts/Melior/fonts/Melior.woff") format("woff"),
+        url("/fonts/Melior/fonts/Melior.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Bulo-Light";
+    src:
+        url("/fonts/Bulo-Light/fonts/BuloLight.woff") format("woff"),
+        url("/fonts/Bulo-Light/fonts/BuloLight.woff2") format("woff2");
+
+}
