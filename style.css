@@ -48,5 +48,5 @@ img {
 #forside .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding-top: 15vw;
+    padding-top: 7vw;
 }
