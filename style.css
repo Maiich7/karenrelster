@@ -1,14 +1,21 @@
+#forside {
+    position: relative;
+    left: 1vw;
+
+}
+
 .slider {
 
     height: 600px;
     width: 600px;
     background: url(images/tissedreng.jpg);
-    margin: 100px auto;
+    margin-left: 5vw;
+    ;
     animation: slide 15s infinite;
     background-repeat: no-repeat;
-    bottom: 10vw;
     background-size: cover;
     background-position: ;
+    padding:
 }
 
 @keyframes slide {

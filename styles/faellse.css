@@ -32,8 +32,8 @@ img {
     height: auto;
     padding: 0vw;
     position: relative;
-    top: 2vw;
-    left: -3.2vw;
+    top: 3vw;
+    left: -7vw;
 }
 
 /*
@@ -103,7 +103,7 @@ header {
 svg {
     width: 5vw;
     height: auto;
-    padding: 5vw;
+    padding: 5 vw;
 }
 
 nav {
@@ -125,20 +125,20 @@ nav a {
 }
 
 #navigation {
-    top: 5vw;
+    top: 2vw;
     position: fixed;
     left: 34vw;
 }
 
 a {
     text-decoration: none;
-    font-family: melior;
+    font-family: bulo-light;
     color: #212121;
-    padding: 0.8rem;
+    padding: 1rem;
     position: relative;
-    top: 2vw;
+    top: -1vw;
     right: 4vw;
-    font-size: 1rem;
+    font-size: 1.2rem;
 
 }
 
