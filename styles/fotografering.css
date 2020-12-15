@@ -22,6 +22,9 @@ nav a {
 #fotografering .section_wrapper {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding-left: 5vw;
+    padding-right: 7vw;
+    padding-bottom: 5vw;
 }
 
 #footer .section_wrapper {
@@ -52,9 +55,24 @@ nav a {
 
 }
 
+@font-face {
+    font-family: "Bulo-medium";
+    src:
+        url("/fonts/Bulo-Medium/fonts/BuloMedium.woff") format("woff"),
+        url("/fonts/Bulo-medium/fonts/BuloMedium.woff2") format("woff2");
+
+}
+
 h1 {
     font-family: "Melior";
     font-size: 2rem;
+    text-transform: uppercase;
+
+}
+
+h2 {
+    font-family: "Bulo-medium";
+    font-size: 1rem;
 }
 
 p {
