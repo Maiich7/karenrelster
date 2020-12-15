@@ -11,6 +11,11 @@ main img {
 
 header {}
 
+svg {
+    width: 5vw;
+    height: auto;
+}
+
 nav {
     font-size: 25px;
     width: 10vw;
