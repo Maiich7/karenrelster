@@ -22,12 +22,24 @@
 }
 
 
-
-body {
-    padding: 0;
-    margin: 0 5vw;
-    background-color: #dddfdf;
+img {
+    width: 14vw;
+    height: auto;
 }
+
+.logo {
+    width: 24vw;
+    height: auto;
+    padding: 0vw;
+    position: relative;
+    top: 2vw;
+    left: -3.2vw;
+}
+
+/*
+background-color: #dddfdf;
+}
+*/
 
 h1 {
     font-family: Melior;
@@ -62,14 +74,7 @@ p {
 
 }
 
-.logo {
-    width: 23vw;
-    height: auto;
-    padding: -4vw;
-    position: absolute;
-    top: 3vw;
-    left: 4.8vw;
-}
+
 
 
 
@@ -86,7 +91,14 @@ main img {
     width: 100%;
 }
 
-header {}
+/*
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    background-color: white;
+}*/
 
 svg {
     width: 5vw;
