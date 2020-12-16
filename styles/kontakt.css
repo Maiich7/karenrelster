@@ -17,6 +17,8 @@
     padding: 0px;
     display: block;
     font-weight: bold;
+    font-family: "bulo-medium";
+
 }
 
 .form-style-1 input[type=text],
@@ -60,38 +62,53 @@ select {
 
 .form-style-1 .field-divided {
     width: 49.77%;
+    font-family: "bulo-light"
 }
 
 .form-style-1 .field-long {
     width: 100%;
+    font-family: "bulo-light"
+
 }
 
 .form-style-1 .field-select {
     width: 100%;
+    font-family: "bulo-light"
+
 }
 
 .form-style-1 .field-textarea {
     height: 100px;
+    font-family: "bulo-light"
+
 }
 
 .form-style-1 input[type=submit],
 .form-style-1 input[type=button] {
-    background: #000000;
+    background: none;
     padding: 8px 15px 8px 15px;
-    border: none;
-    color: #fff;
+    border-color: #212121;
+    border-style: solid;
+    font-family: "bulo-medium";
+    color: #212121;
+    width: 10vw;
+
+
 }
 
 .form-style-1 input[type=submit]:hover,
 .form-style-1 input[type=button]:hover {
-    background: #000000;
+    background: #212121;
     box-shadow: none;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
+    color: #dddfdf;
+    font-family: "bulo-medium";
+
 }
 
 .form-style-1 .required {
-    color: red;
+    color: #212121;
 }
 
 </style > body {
@@ -107,9 +124,7 @@ select {
     padding-right: 10vw;
 }
 
-#kontakt .form-style-1 {
-    padding: 5vw;
-}
+#kontakt .form-style-1 {}
 
 iframe {
     width: 100%;
