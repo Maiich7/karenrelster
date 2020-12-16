@@ -6,12 +6,12 @@
 
 .slider {
 
-    height: 50vw;
+    height: 33vw;
     width: 50vw;
     object-fit: cover;
     background: url(images/tissedreng.jpg);
     margin-left: 5vw;
-    ;
+
     animation: slide 15s infinite;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,6 +24,7 @@
     25% {
         background: url(images/DSC_5574.jpg);
         background-repeat: no-repeat;
+        background-size: cover;
     }
 
 
@@ -31,12 +32,14 @@
     50% {
         background: url(images/far.jpg);
         background-repeat: no-repeat;
+        background-size: cover;
     }
 
 
     75% {
         background: url(images/skubbe.jpg);
         background-repeat: no-repeat;
+        background-size: cover;
     }
 
 
@@ -44,6 +47,7 @@
     100% {
         background: url(images/oldemor01.jpg);
         background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
