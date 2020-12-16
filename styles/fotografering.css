@@ -6,18 +6,6 @@
     padding-bottom: 5vw;
 }
 
-#footer .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: justify;
-    padding-left: 10vw;
-}
-
-#footer img {
-    width: 10%;
-    padding-right: 4vw;
-    padding-top: 1vw;
-}
 
 @font-face {
     font-family: "Melior";

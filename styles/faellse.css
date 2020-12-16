@@ -114,6 +114,13 @@ header {
     background-color: white;
 }*/
 
+
+.facebook {
+    position: relative;
+    top: 3vw;
+    left: 8vw;
+}
+
 svg {
     width: 5vw;
     height: auto;
