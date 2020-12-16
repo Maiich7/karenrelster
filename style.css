@@ -14,8 +14,9 @@
     animation: slide 15s infinite;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: ;
-    padding:
+    position: relative;
+    top: 0vw;
+    left: 4vw;
 }
 
 @keyframes slide {
@@ -48,5 +49,5 @@
 #forside .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding-top: 7vw;
+    padding-top: 0vw;
 }

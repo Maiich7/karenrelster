@@ -124,9 +124,27 @@ select {
     padding-right: 10vw;
 }
 
-#kontakt .form-style-1 {}
+.kontakt {
+    position: relative;
+    top: 0vw;
+    left: 1vw;
+}
+
+.placering {
+    position: relative;
+    top: 0vw;
+    left: 4vw;
+}
+
+#kontakt .form-style-1 {
+    position: relative;
+    top: 0.99vw;
+    left: -1.6vw;
+}
 
 iframe {
     width: 100%;
     padding: 4vw;
+    top: -3.7vw;
+    position: relative;
 }

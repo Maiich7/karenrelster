@@ -116,6 +116,9 @@ nav {
     padding: 30px;
     text-align: end;
     font-family: Melior;
+    position: relative;
+    top: -1vw;
+    left: 0vw;
 
 }
 
@@ -137,7 +140,7 @@ a {
     padding: 1rem;
     position: relative;
     top: 0.5vw;
-    right: 8.2vw;
+    right: 9.1vw;
     font-size: 1.2rem;
 
 }
