@@ -6,14 +6,14 @@
 
 .slider {
 
-    height: 35vw;
-    width: 50vw;
+    height: 60vw;
+    width: 80vw;
     background-size: cover;
     background-image: url(images/05.jpg);
     animation: slide 15s infinite;
     position: relative;
-    top: 0vw;
-    left: 1vw;
+    top: -90vw;
+    left: 3vw;
 }
 
 
@@ -49,7 +49,6 @@
 
 #forside .section_wrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr;
     padding-top: vw;
 }
 
@@ -82,7 +81,7 @@
 .knap {
     position: relative;
     top: 1.5vw;
-    left: 0vw;
+    left: vw;
 }
 
 
@@ -90,12 +89,18 @@ p {
     font-family: "Bulo-Light";
     color: #212121;
     margin-top: -0.5rem;
+    font-size: 3vw
+}
+
+h2 {
+    line-height: 3vw;
+    font-size: 4vw;
 }
 
 
 .kon {
     position: relative;
-    top: -2vw;
+    top: 90vw;
     left: 0vw;
 }
 
@@ -103,15 +108,16 @@ p {
 
 .tider {
     position: relative;
-    top: -1vw;
-    left: 0vw;
+    top: 60vw;
+    left: 50vw;
+    text-align: r
 }
 
 
 .tekst {
     position: relative;
-    top: 1vw;
+    top: vw;
     left: 0vw;
-    width: 20vw;
+    width: 85vw;
     text-align: justify;
 }
