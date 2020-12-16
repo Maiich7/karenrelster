@@ -45,14 +45,14 @@ h1 {
     font-family: Melior;
     text-transform: uppercase;
     color: #212121;
+    font-size: 2vw;
 
 }
 
 h2 {
     font-family: "Bulo-Medium";
     color: #212121;
-
-
+    font-size: 1vw;
 }
 
 h3 {
@@ -71,7 +71,8 @@ h5 {
 p {
     font-family: "Bulo-Light";
     color: #212121;
-
+    font-size: 1vw;
+    text-align: left;
 }
 
 
@@ -226,4 +227,14 @@ a hover {
         display: inline-block;
     }
 
+}
+
+footer {
+    position: relative;
+    bottom: -6vw;
+    left: 1vw;
+}
+
+footer p {
+    text-align: center;
 }

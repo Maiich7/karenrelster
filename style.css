@@ -6,7 +6,7 @@
 
 .slider {
 
-    height: 33vw;
+    height: 35vw;
     width: 50vw;
     object-fit: cover;
     background: url(images/tissedreng.jpg);
@@ -57,6 +57,11 @@
     padding-top: vw;
 }
 
+.col {
+    position: relative;
+    top: 3vw;
+}
+
 /*------------knap------------*/
 #fotografering {
     background: none;
@@ -89,7 +94,7 @@
 p {
     font-family: "Bulo-Light";
     color: #212121;
-    margin-top: -1rem;
+    margin-top: -0.5rem;
 }
 
 
@@ -112,4 +117,6 @@ p {
     position: relative;
     top: 1vw;
     left: 0vw;
+    width: 20vw;
+    text-align: justify;
 }
