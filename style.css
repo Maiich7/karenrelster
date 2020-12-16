@@ -8,46 +8,42 @@
 
     height: 35vw;
     width: 50vw;
-    object-fit: cover;
-    background: url(images/tissedreng.jpg);
-    margin-left: 5vw;
-
-    animation: slide 15s infinite;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(images/05.jpg);
+    animation: slide 15s infinite;
     position: relative;
     top: 0vw;
-    left: -5vw;
+    left: 1vw;
 }
+
 
 @keyframes slide {
     25% {
-        background: url(images/DSC_5574.jpg);
-        background-repeat: no-repeat;
+        background-image: url(images/DSC_5574.jpg);
         background-size: cover;
     }
 
-
-
     50% {
-        background: url(images/far.jpg);
-        background-repeat: no-repeat;
+        background-image: url(images/DSC_1858.jpg);
         background-size: cover;
+
     }
 
 
     75% {
-        background: url(images/skubbe.jpg);
-        background-repeat: no-repeat;
+        background-image: url(images/oldemor01.jpg);
         background-size: cover;
+
+
     }
 
 
 
     100% {
-        background: url(images/oldemor01.jpg);
-        background-repeat: no-repeat;
+        background-image: url(images/DSC_9376.jpg);
         background-size: cover;
+
+
     }
 }
 
@@ -70,7 +66,6 @@
     /*  border-style: solid;*/
     font-family: "bulo-medium";
     color: #212121;
-    width: 10vw;
 }
 
 #fotografering:hover,
