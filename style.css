@@ -49,5 +49,15 @@
 #forside .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding-top: 0vw;
+    padding-top: vw;
+}
+
+#fotografering {
+    background: none;
+    padding: 8px 15px 8px 15px;
+    border-color: #212121;
+  /*  border-style: solid;*/
+    font-family: "bulo-medium";
+    color: #212121;
+    width: 10vw;
 }
