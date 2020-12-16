@@ -6,8 +6,9 @@
 
 .slider {
 
-    height: 600px;
-    width: 600px;
+    height: 50vw;
+    width: 50vw;
+    object-fit: cover;
     background: url(images/tissedreng.jpg);
     margin-left: 5vw;
     ;
@@ -16,7 +17,7 @@
     background-size: cover;
     position: relative;
     top: 0vw;
-    left: 4vw;
+    left: -5vw;
 }
 
 @keyframes slide {
@@ -52,12 +53,59 @@
     padding-top: vw;
 }
 
+/*------------knap------------*/
 #fotografering {
     background: none;
     padding: 8px 15px 8px 15px;
     border-color: #212121;
-  /*  border-style: solid;*/
+    /*  border-style: solid;*/
     font-family: "bulo-medium";
     color: #212121;
     width: 10vw;
+}
+
+#fotografering:hover,
+#fotografering:hover {
+    background: #212121;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    color: #dddfdf;
+    font-family: "bulo-medium";
+
+}
+
+.knap {
+    position: relative;
+    top: 1.5vw;
+    left: 0vw;
+}
+
+
+p {
+    font-family: "Bulo-Light";
+    color: #212121;
+    margin-top: -1rem;
+}
+
+
+.kon {
+    position: relative;
+    top: -2vw;
+    left: 0vw;
+}
+
+
+
+.tider {
+    position: relative;
+    top: -1vw;
+    left: 0vw;
+}
+
+
+.tekst {
+    position: relative;
+    top: 1vw;
+    left: 0vw;
 }
